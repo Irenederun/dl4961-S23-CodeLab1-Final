@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81565ddd3c656a94d8f158ae65966d99, type: 3}
+  m_Name: D-Default
+  m_EditorClassIdentifier: 
+  dialogues:
+  - Tough day, eh? I get it. Wanna talk about it? No?
+  - <keycode>? Strong start for the night.
+  - 'Take it easier, will ya? We have all the time. '
+  - So it's one of those nights... I get it. Go for it, then.
+  - I guess I'll just sit back and keep an eye on you. Deal?
+  - You really should stop. You are  drunk. Like, <keyvalue>%.
+  - ...Do you want to talk? Even just a little bit? Let me help.
+  - 'That''s too much for your liver. Please. Listen to me. '
+  - 'You are going to feel like hell tomorrow. Or in the ER. '
+  - PLEASE. For you own wellbeing.
+  - And stop breaking everything!
+  - ...
+  - ...

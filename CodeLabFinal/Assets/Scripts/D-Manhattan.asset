@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81565ddd3c656a94d8f158ae65966d99, type: 3}
+  m_Name: D-Manhattan
+  m_EditorClassIdentifier: 
+  dialogues:
+  - Hard to say. I'm not a fan of Vermouth myself.
+  - It has a bitter taste... You tasting at all?
+  - The way you chug that reminds me of the time I puked.
+  - Manhattans are really strong. Just, a bit slower, ok?
+  - Thought about having four of the same drinks?
