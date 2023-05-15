@@ -158,6 +158,7 @@ public class GameManager : MonoBehaviour
                 default:
                     dialogueText.text = "You know what? That's enough. I will take you outta here --- ";
                     dialogueBox.GetComponent<CapsuleCollider2D>().enabled = true;
+                    dialogueBox.GetComponent<Animator>().SetTrigger("DialogueBoil");
                     break;  
             }
         }
