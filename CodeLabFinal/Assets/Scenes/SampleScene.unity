@@ -123,6 +123,27 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &44116769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2189163480930650683, guid: 59f084901a1c7364283f2c45e86824b4, type: 3}
+  m_PrefabInstance: {fileID: 2189163481639592156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &44116775
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44116769}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.8061847, y: -2.076896}
+  m_Size: {x: 3.1630414, y: 9.343782}
+  m_Direction: 0
 --- !u!1 &174014390
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,6 +272,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &254917953 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2866929463180706130, guid: 4843c0d2035bb0545887dee99b09f8e4, type: 3}
+  m_PrefabInstance: {fileID: 2866929463142503701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &254917959
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254917953}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.94054985, y: -2.3456194}
+  m_Size: {x: 3.6467595, y: 8.806328}
+  m_Direction: 0
 --- !u!1 &286638262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1909,7 +1951,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -1931,9 +1973,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.4554943, y: -4.639854}
+  m_Offset: {x: 0.4554943, y: -4.9629593}
   serializedVersion: 2
-  m_Radius: 1.6830893
+  m_Radius: 2.0061946
 --- !u!1 &1955619241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2513,7 +2555,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glass-T4-1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2189163480930650679, guid: 59f084901a1c7364283f2c45e86824b4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 59f084901a1c7364283f2c45e86824b4, type: 3}
 --- !u!1001 &2866929463142503701
 PrefabInstance:
@@ -2574,7 +2617,8 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2866929463180706136, guid: 4843c0d2035bb0545887dee99b09f8e4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4843c0d2035bb0545887dee99b09f8e4, type: 3}
 --- !u!1001 &4014563005710545446
 PrefabInstance:

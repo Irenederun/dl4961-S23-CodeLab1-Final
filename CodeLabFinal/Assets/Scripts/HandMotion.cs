@@ -132,7 +132,3 @@ public class HandMotion : MonoBehaviour
         }
     }
 }
-
-//喝到带多了可以把兄弟的对话框拿起来砸了 然后game over
-//对话框变成问号
-//捏出来的时候有一个兄弟
